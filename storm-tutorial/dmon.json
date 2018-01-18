@@ -1,0 +1,14 @@
+{
+    "ctors":[ 
+        ["core","ctor://synapse.cortex.openurl('sqlite:////storm-tutorial/sqlite-core.db')", {"config": "proto"}]
+    ],
+    "share": [ ["core",{}] ],
+    "listen":["tcp://0.0.0.0:47322"],
+
+    "configs":{
+        "proto":{
+            "caching": 1,
+            "enforce": 1
+        }
+    }
+}

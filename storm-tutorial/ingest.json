@@ -1,0 +1,10 @@
+{
+    "sources": [
+        ["/storm-tutorial/data/ingest_ipv4s.csv", {
+            "open": {"format": "csv"},
+            "ingest": {
+                "forms": [["inet:ipv4", {"path": "0"}]]
+            }
+        }]
+    ]
+}
