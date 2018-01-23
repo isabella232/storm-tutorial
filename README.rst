@@ -32,3 +32,9 @@ The following command starts the container and connects to the tutorial image.
 
 .. |synvers| image:: https://img.shields.io/badge/synapse-v0.0.44-green.svg 
 .. _synvers: https://github.com/vertexproject/synapse
+
+Adding Data
+------------
+
+Additional data and ingest files can be added at ``storm-tutorial/data/`` and ``storm-tutorial/ingests/``.
+The Dockerfile for this tutorial will run all of the ingest files at build time and save the resulting cortex file.
