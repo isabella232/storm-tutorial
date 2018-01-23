@@ -6,7 +6,7 @@ Storm Tutorial
 Storm is the query language used to interact with data in a Synapse hypergraph.
 Storm allows you to ask about, retrieve, annotate, add, modify, and delete data from a Cortex.
 
-This tutorial exists as an interactive Docker image. 
+This tutorial exists as an interactive Docker image.
 Visit https://docs.docker.com/engine/installation/#supported-platforms for instructions to install Docker.
 
 Additional Storm documentation is available at https://vertexprojectsynapse.readthedocs.io/en/latest/synapse/userguides/ug011_storm_basics.html.
