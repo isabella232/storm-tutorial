@@ -76,3 +76,5 @@ venv
 # vim
 *.swo
 *.swp
+
+*.db
