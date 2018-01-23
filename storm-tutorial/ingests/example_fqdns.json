@@ -1,9 +1,9 @@
 {
     "sources": [
-        ["/storm-tutorial/data/ingest_ipv4s.csv", {
+        ["/storm-tutorial/data/example_fqdns.csv", {
             "open": {"format": "csv"},
             "ingest": {
-                "forms": [["inet:ipv4", {"path": "0"}]]
+                "forms": [["inet:fqdn", {"path": "0"}]]
             }
         }]
     ]
