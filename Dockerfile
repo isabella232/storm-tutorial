@@ -1,5 +1,5 @@
 # vim:set ft=dockerfile:
-FROM vertexproject/synapse:v0.0.45
+FROM vertexproject/synapse:v0.0.49
 
 COPY storm-tutorial/ /storm-tutorial/
 RUN python /storm-tutorial/ingest.py sqlite:////storm-tutorial/tutorial-core.db /storm-tutorial/ingests/
