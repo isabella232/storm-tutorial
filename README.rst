@@ -1,7 +1,7 @@
 Storm Tutorial
 =======
 
-|dockerhub|_ |synvers|_
+|circleci|_ |dockerhub|_ |synvers|_
 
 Storm is the query language used to interact with data in a Synapse hypergraph.
 Storm allows you to ask about, retrieve, annotate, add, modify, and delete data from a Cortex.
@@ -26,6 +26,9 @@ The following command starts the container and connects to the tutorial image.
   py   - Evaluate a line of python code with the cmd item.
   quit - Quit the current command line interpreter.
   cli>
+
+.. |circleci| image:: https://circleci.com/gh/vertexproject/storm-tutorial/tree/master.svg?style=svg
+.. _circleci: https://circleci.com/gh/vertexproject/storm-tutorial/tree/master
 
 .. |dockerhub| image:: https://img.shields.io/docker/build/vertexproject/storm-tutorial.svg?branch=master
 .. _dockerhub: https://hub.docker.com/r/vertexproject/storm-tutorial/

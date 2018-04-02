@@ -1,0 +1,17 @@
+version: 2
+jobs:
+ build:
+   machine: true
+   steps:
+     - checkout
+
+     - run:
+        name: setup test image
+        command: |
+          docker build -t vertexproject/test-storm-tutorial:master .
+          pushd test/ && docker build -t vertexproject/test-storm-tutorial:test . && popd
+
+     - run:
+        name: run test image
+        command: |
+          docker run --rm vertexproject/test-storm-tutorial:test
