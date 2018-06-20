@@ -33,7 +33,7 @@ The following command starts the container and connects to the tutorial image.
 .. |dockerhub| image:: https://img.shields.io/docker/build/vertexproject/storm-tutorial.svg?branch=master
 .. _dockerhub: https://hub.docker.com/r/vertexproject/storm-tutorial/
 
-.. |synvers| image:: https://img.shields.io/badge/synapse-v0.0.51-green.svg 
+.. |synvers| image:: https://img.shields.io/badge/synapse-v0.0.55-green.svg
 .. _synvers: https://github.com/vertexproject/synapse
 
 Adding Data
